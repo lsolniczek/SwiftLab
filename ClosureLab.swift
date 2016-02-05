@@ -5,3 +5,6 @@ struct ClosureLab {
         }
     }
 }
+
+let testClosurro = ClosureLab.closurro()
+testClosurro("Lukasz", "Solniczek", 2, 3)
