@@ -1,4 +1,9 @@
 struct ClosureLab {
+
+    static var closurroVar: ((String, String, Int, Int) -> String)? = { (first, second, firstInt, secondInt) -> String in
+        return "\(first), \(second), \(firstInt), \(secondInt)"
+    }
+
     static func closurro() -> (String, String, Int, Int) -> String {
         return { (first, second, firstInt, secondInt) -> String in
             return "\(first), \(second), \(firstInt), \(secondInt)"
