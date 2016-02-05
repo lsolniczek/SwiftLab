@@ -29,5 +29,4 @@ enum URLComposer {
         return "/user/1/"
     }
   }
-
 }
