@@ -12,7 +12,7 @@ enum URLComposer {
         return "POST"
       case .UserRemove:
         return "DELETE"
-      case .UserShow
+      case .UserShow:
         return "GET"
     }
   }
