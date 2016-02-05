@@ -4,7 +4,18 @@ struct ClosureLab {
             return "\(first), \(second), \(firstInt), \(secondInt)"
         }
     }
+
+    static func closurroBis() -> (String, String, Int, Int) -> String {
+
+        func anonim(x: String, y: String, i: Int, j: Int) -> String {
+            return "\(x), \(y), \(i), \(j)"
+        }
+        return anonim
+    }
 }
 
 let testClosurro = ClosureLab.closurro()
 testClosurro("Lukasz", "Solniczek", 2, 3)
+
+let testClo2 = ClosureLab.closurroBis()
+testClo2("Lukasz", "Solniczek", 2, 3)
