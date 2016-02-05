@@ -25,9 +25,9 @@ enum URLComposer {
         return "/user/1/update"
       case .UserRemove:
         return "/user/1/delete"
-      case .UserShow
-        return "/user/1/""
+      case .UserShow:
+        return "/user/1/"
     }
   }
-  
+
 }
