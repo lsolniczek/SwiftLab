@@ -1,9 +1,9 @@
 protocol ProtocolLab {
-  func showMeAlert(message: String)
+  func showMeAlert(x: String, y: String, z: String, zz: String)
 }
 
 extension ProtocolLab {
-    func showMeAlert(message: String) {
-        print(message)
+    func showMeAlert(x: String, y: String, z: String, zz: String) {
+        print(x + y + z + zz)
     }
 }
